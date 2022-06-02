@@ -67,8 +67,19 @@ body{
     color: var(--color-five);
     font-family: var(--font--one);
     font-size: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.h1-box>p{
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-family: var(--font--two);
+    font-size: 0.8em;
+    color: #a1a1aa;
+    padding: 20px 0px 0px 0px;
 }
 .p-box{
     width: 100%;
@@ -169,7 +180,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-#resultado{
+#RECEBA{
     color: white;
     display: flex;
     justify-content: center;
@@ -195,7 +206,7 @@ body{
         font-size:0.7em;
         padding: 20px 35px;
     }
-    #resultado{
+    #RECEBA{
         color: white;
         display: flex;
         justify-content: center;
